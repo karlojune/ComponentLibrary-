@@ -65,7 +65,7 @@ export default function TooltipSection() {
 					</Tooltip>
 				</div>
 				<div className="tooltip-demo-wrapper">
-					<p class="tooltip-content">
+					<p className="tooltip-content">
 						hover me
 						<div className="tooltip-demo">
 							<Tooltip theme="lightGreen">

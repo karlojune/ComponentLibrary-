@@ -250,3 +250,47 @@ p {
 	visibility: visible;
 	opacity: 1;
 }
+
+/* Toast Section */
+.toast-section {
+	background-color: #e5e7eb;
+	padding: 1em;
+}
+
+.toast-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	gap: 1em;
+	justify-items: center;
+}
+
+/* @media (width < 690px) {
+	.toast-wrapper {
+		grid-template-columns: repeat(auto-fit, minmax(690px, 1fr));
+	}
+} */
+
+.toast {
+	display: flex;
+	gap: 0.8em;
+	background-color: orange;
+	width: 330px;
+	padding: 1.3em;
+	border-radius: 7px;
+}
+
+.toast-icon {
+	font-size: 1.2rem;
+}
+
+.toast-details {
+	/* margin-right: ; */
+}
+
+.toast-title {
+	font-weight: 500;
+}
+
+.toast-text {
+	margin-top: 0.5em;
+}
